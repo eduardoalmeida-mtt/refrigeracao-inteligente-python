@@ -7,7 +7,7 @@ O sistema utiliza a câmera (Webcam ou Celular via IP Webcam) para detectar rost
 
 - **0 Pessoas:** 26°C (Modo Econômico)
 - **1 Pessoa:** 24°C
-- **2 ou mais:** A temperatura reduz 1°C para cada pessoa adicional (Limite de 18°C)
+- **2 ou mais:** A temperatura reduz 1°C para cada 2 pessoa adicional (Limite de 18°C)
 
 ## 🛠️ Tecnologias
 - **Python 3.12**

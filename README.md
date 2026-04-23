@@ -23,17 +23,19 @@ fonte_video = 0
 
 ### Opção B: Usando Telefone (IP Webcam)
 1. Instale o app **IP Webcam** no seu Android.
-2. Clique em **"Start Server"** no app.
-3. No código, use o endereço IP fornecido pelo app (não esqueça do `/video` no final):
+2. Clique em **"Start Server"**(tres ponto acima canto superior direito)no app.
+3. No código, use o endereço IP fornecido pelo app 1 aparece(não esqueça do `/video` no final):
+4. linha 7 do codigo tem as instrucoes 
 
 ```python
-fonte_video = '[http://19](http://19)
-
+fonte_video = '[http://192.168.](http://192.168.)x.x:8080/video'
 ## 🔧 Instalação
 1. Clone o repositório.
 2. Instale as dependências:
-
+```bash
 pip install -r requirements.txt
 
-## Execute o script:
+Execute o script:
+
+Bash
 python ar.py
